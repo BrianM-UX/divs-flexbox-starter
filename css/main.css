@@ -106,6 +106,8 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background: black;
+  display: flex;
 }
 
 .wrapper {
@@ -119,16 +121,21 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
   height: 300px;
   width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
-
+/* Vertical Line border between divs */
+.vl {
+    border-left: 1px solid rgba(255, 255, 255, 0.37);
+    height: 300px;
+    align-items: center;
+}
 
 
 /* ==========================================================================
